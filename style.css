@@ -1,0 +1,103 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  background-color: #323232;
+  color: white; 
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif; 
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+    background: #E60965;
+}
+
+#button1:active, #button1.lit {
+    background: snow
+}
+
+#button2 {
+    background: #F94892;
+}
+
+#button2:active, #button2.lit {
+    background: snow;
+}
+
+#button3 {
+    background: #FFA1C9;
+}
+
+#button3:active, #button3.lit {
+    background: snow;
+}
+
+#button4 {
+    background: #FBE5E5;
+}
+
+#button4:active, #button4.lit {
+    background: snow
+}
+
+#button5 {
+    background: #F473B9;
+}
+
+#button5:active, #button5.lit {
+    background: snow;
+}
+
+#button6 {
+    background: #FFBDE6;
+}
+
+#button6:active, #button6.lit {
+    background: snow;
+}
+
+#button7 {
+    background: #FFDDEE;
+}
+
+#button7:active, #button7.lit {
+    background: snow;
+}
+
+#button8 {
+    background: #FFCCD2;
+}
+
+#button8:active, #button8.lit {
+    background: snow;
+}
